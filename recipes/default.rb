@@ -2,7 +2,7 @@
 # Cookbook:: cr_docker-ce
 # Recipe:: default
 #
-# Copyright:: 2025, The Authors, All Rights Reserved.
+# Copyright:: 2025, Remi BONNET, GPL v3.
 
 if platform_family?('windows')
   # if node['product_type'] == 'Server'

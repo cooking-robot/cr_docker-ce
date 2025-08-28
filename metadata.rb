@@ -1,8 +1,8 @@
 name 'cr_docker-ce'
 maintainer 'Remi BONNET'
 maintainer_email 'prog.bontiv@gmail.com'
-license 'All Rights Reserved'
-description 'Installs/Configures cr_docker-ce'
+license 'GPL-3.0'
+description 'Installs/Configures Docker CE'
 version '0.1.0'
 chef_version '>= 16.0'
 
@@ -19,3 +19,7 @@ issues_url 'https://github.com/cr_docker-ce/cr_docker-ce/issues'
 source_url 'https://github.com/cr_docker-ce/cr_docker-ce'
 
 depends 'docker'
+
+supports 'windows'
+supports 'ubuntu'
+supports 'debian'
